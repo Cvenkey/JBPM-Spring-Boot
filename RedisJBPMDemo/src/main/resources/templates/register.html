@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title></title>
+<link rel="stylesheet"  th:href="@{/css/style.css}" />
+<style>
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button
+	{
+	-webkit-appearance: none;
+	margin: 0;
+}
+</style>
+</head>
+<body>
+	<form th:action="@{/register}" action="#" th:object="${newUser}"
+		method="post">
+		<div class="site_box" style="margin-top: 115px; margin-left: 550px;">
+			<div class="next_line">
+				<input autocomplete="off" class="lgn_ipupttext" type="number"
+					placeholder="Phone Number*" th:field="*{phone}" required="required">
+				<span th:if="${#fields.hasErrors('phone')}" th:errors="*{phone}"></span>
+			</div>
+
+			<button style="width: 34%;margin-left: 91px;" type="submit" formaction="/user/validateUser">Register</button>
+			</div>
+	</form>
+</body>
+</html>

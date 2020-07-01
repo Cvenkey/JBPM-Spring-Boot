@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title></title>
+<link rel="stylesheet" th:href="@{/css/style.css}" />
+<style>
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button
+	{
+	-webkit-appearance: none;
+	margin: 0;
+}
+</style>
+</head>
+<body>
+	<form th:object="${savedUser}">
+		<div class="site_box" style="margin-top: 115px; margin-left: 550px;">
+			<h1> Registration Successful</h1>
+			<table>
+				<tr>
+				 <td>First Name</td><td>${savedUser.firstName}</td>
+				</tr>
+			</table>
+		</div>
+	</form>
+</body>
+</html>

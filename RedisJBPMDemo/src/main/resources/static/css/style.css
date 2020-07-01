@@ -1,0 +1,134 @@
+@CHARSET "ISO-8859-1";
+
+.ui_inputtext {
+width: 30%;
+display : block; 
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+    background: #fff;
+    color: #082b71; 
+    transition: .2s;
+    margin: 0;
+    outline: 0;
+    font-weight: 400;
+}
+
+.page_border{
+border-style: groove;
+}
+
+.ui_box{
+padding-left: 200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-style: groove;
+    margin-left: 375px;
+    margin-right: 550px;
+    margin-top: 215px;
+}
+
+.submit_btn{
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 1rem;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    background: linear-gradient(to bottom,#2e3192 0,#2e3192 100%);
+    color: #fff;
+    border: solid transparent;
+    border-radius: 1px;
+    font-weight: bold;
+    width: 20%;
+}
+
+.next_line{
+	padding-bottom:6px;
+}
+
+.suucess_msg{
+    color: lightyellow;
+    font-size: 17px;
+    font-style: oblique;
+    border-radius: 25px;
+    border: 2px solid midnightblue;
+    background: midnightblue;
+    text-align: center;
+    width: 268px;
+    margin-left: -20px;
+    padding: 5px;}
+
+.site_box{
+    box-shadow: 0 1px 9px 2px rgba(98,98,98,.25);
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 202px 5px 5px 565px;
+    width: 25.3%;
+    height: 350px;
+}
+.lgoinPage_font{
+	font-size: 20px;
+    font-weight: 500;
+    margin-left: 31px;
+    color: #4A90E2;
+}
+.blue_text{
+	color: #4A90E2
+}
+
+.frm_sub_btn{
+	display: inline-block;
+    margin-bottom: 0;
+    font-size: 1rem;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    background: linear-gradient(to bottom,#2e3192 0,#2e3192 100%);
+    color: #fff;
+    border: solid transparent;
+    border-radius: 1px;
+	width: 140px;
+	font-size: 15px;
+}
+.cncl_btn{
+	width: 75px;
+}
+.single_line_input{
+background-color: black;
+    background-color: transparent;
+    color: #eeeeee;
+    outline: none;
+    outline-style: none;
+    outline-offset: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid black 1px;
+    padding: 3px 10px;
+    color: blue;
+    font-weight: 400;
+}
+.act_grid{
+width: 75%;
+    margin-top: 37px;
+    background: #EBEDEF;
+}
+
+.lgn_ipupttext {
+	width: 75%;
+	margin: 0px 30px;
+	height: 30px;
+	padding: 0 15px;
+}
